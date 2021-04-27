@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav">
+        <ul id="nav-li">
+            <li class="li"><a href="index.html">Logo</a></li>
+            <li id="nav-li-2"><span>Categories</span> <img src="img/opener.png" alt="">
+                <div id="menu">
+                    <table border="1">
+                        <tr>
+                            <a href="lesbian.html">
+                                <td>Lesbian</td>
+                            </a>
+                            <a href="gay.html">
+                                <td>Gay</td>
+                            </a>
+                        </tr>
+                        <tr>
+                            <a href="webcam.html">
+                                <td>Webcam</td>
+                            </a>
+                            <a href="milf.html">
+                                <td>MILF</td>
+                            </a>
+                        </tr>
+                        <tr>
+                            <a href="dating.html">
+                                <td>Dating</td>
+                            </a>
+                            <a href="bisexual.html">
+                                <td>Bisexual</td>
+                            </a>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="main-txt tac">
+        <h1 class="page">404 PAGE, PLEASE MOVE BACK</h1>
+    </div>
+</body>
+<script>
+    let categ = document.getElementById('nav-li-2');
+    let menu = document.getElementById('menu');
+    categ.addEventListener('click', function() {
+        menu.classList.toggle('show');
+    });
+</script>
+
+</html>

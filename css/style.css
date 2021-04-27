@@ -784,3 +784,12 @@ a {
         font-size: 70px;
     }
 }
+
+.page {
+    font-family: 'Zen Dots', cursive;
+    font-size: 70px;
+}
+
+.tac {
+    text-align: center;
+}
