@@ -683,7 +683,7 @@ a {
     }
     .nav {
         height: 167px;
-        width: 341%;
+        width: 400%;
     }
     #nav-li {
         font-size: 58px;
@@ -858,7 +858,7 @@ a {
     }
     #menu {
         margin-top: 90px;
-        right: -335px;
+        right: -500px;
     }
     #h1 {
         font-size: 50px;
@@ -891,7 +891,7 @@ a {
         width: 1300px;
     }
     .nav {
-        width: 382%;
+        width: 400%;
     }
 }
 
